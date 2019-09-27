@@ -63,14 +63,7 @@ $('.scroll-link').click(function(event) {
     $('.menu-mob-content').toggleClass('active');
   });
 
-  // $(".section-btn .btn").click(function(){
-  //   var btn = $('.section-btn .btn').text();
-  //   var title = $('#callback-title');
-  //   // $('.section-btn .btn').each(function(){
-  //   //   title.text($(this).html());
-  //   // });
-  //   title.text(btn);
-  // }).fancybox();
+  $('.phone-mask').mask('+7(999)999-99-99');
 
 // var canvas = document.getElementById('bg-color');
 // var ctx = canvas.getContext('2d');
