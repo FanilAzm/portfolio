@@ -659,6 +659,10 @@ html, body {
 	height: 21px;
 }
 
+.github {
+    display: inline-block;
+}
+
 .copyright {
 	padding: 30px 0;
 	text-align: center;

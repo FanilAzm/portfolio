@@ -62,8 +62,38 @@ $('.scroll-link').click(function(event) {
     $(this).toggleClass('active');
     $('.menu-mob-content').toggleClass('active');
   });
-
+  
   $('.phone-mask').mask('+7(999)999-99-99');
+  
+ 
+    $('.callback').on('submit', function(e){
+     e.preventDefault();
+     var fd = new FormData( this );
+     $.ajax({
+     url: 'mail.php',
+     type: 'POST',
+     contentType: false, 
+     processData: false, 
+     data: fd,
+     success: function(msg){
+    if(msg == 'ok') {
+     $.fancybox.close();
+     alert('Спасибо за заявку!');
+    } else {
+     alert('Ошибка')
+    }
+     }
+     });
+     });
+
+  // $(".section-btn .btn").click(function(){
+  //   var btn = $('.section-btn .btn').text();
+  //   var title = $('#callback-title');
+  //   // $('.section-btn .btn').each(function(){
+  //   //   title.text($(this).html());
+  //   // });
+  //   title.text(btn);
+  // }).fancybox();
 
 // var canvas = document.getElementById('bg-color');
 // var ctx = canvas.getContext('2d');
