@@ -55,8 +55,8 @@ html, body {
 }
 
 .menu a:hover {
-	color: #fc557c;
-	border-bottom: 1px solid #fc557c;
+	color: #6F86D6;
+	border-bottom: 1px solid #6F86D6;
 }
 
 .menu-mob {
@@ -94,7 +94,7 @@ html, body {
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
-	background: linear-gradient(to right top, #f25e2a, #fa0890);
+	background: linear-gradient(to right top, #6F86D6, #48C6EF);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -128,7 +128,7 @@ html, body {
 .line-top {
 	position: absolute;
 	top: 0;
-	background-color: #ff2f96;
+	background-color: #48C6EF;
 	-webkit-transition: all ease .5s;
 	-o-transition: all ease .5s;
 	transition: all ease .5s;
@@ -141,7 +141,7 @@ html, body {
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
-	background-color: #ff5c7a;
+	background-color: #4ba5e6;
 	-webkit-transition: all ease .5s;
 	-o-transition: all ease .5s;
 	transition: all ease .5s;
@@ -150,7 +150,7 @@ html, body {
 .line-bottom {
 	position: absolute;
 	bottom: 0;
-	background-color: #ff875f;
+	background-color: #6F86D6;
 	-webkit-transition: all ease .5s;
 	-o-transition: all ease .5s;
 	transition: all ease .5s;
@@ -165,9 +165,9 @@ html, body {
 .call {
 	display: inline-block;
 	padding: 16px 40px;
-	border: 1px solid #fc557c;
+	border: 1px solid #6F86D6;
 	background-color: transparent;
-	color: #fc557c !important;
+	color: #6F86D6 !important;
 	font-size: 16px;
 	border-radius: 50px;
 	cursor: pointer;
@@ -226,7 +226,7 @@ html, body {
 .btn {
 	padding: 24px 70px;
 	font-size: 18px;
-	background-color: #ff4e2e;
+	background-color: #005bea;
 	color: white;
 	border-radius: 50px;
 	text-decoration: none;
@@ -261,7 +261,7 @@ html, body {
 	transform: rotate(35deg);
 	top: 20%;
 	left: 0%;
-	background: linear-gradient(to right bottom, #fa0890, #f25e2a);
+	background: linear-gradient(to right bottom, #48C6EF, #6F86D6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -280,7 +280,7 @@ html, body {
 	transform: rotate(-15deg);
 	top: 25%;
 	left: 30%;
-	background: linear-gradient(to right top, #f25e2a, #fa0890);
+	background: linear-gradient(to right top, #6F86D6, #48C6EF);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -299,7 +299,7 @@ html, body {
 	transform: rotate(10deg);
 	top: 50%;
 	left: -10%;
-	background: linear-gradient(to right bottom, #fa0890, #f25e2a);
+	background: linear-gradient(to right bottom, #48C6EF, #6F86D6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -318,7 +318,7 @@ html, body {
 	transform: rotate(20deg);
 	bottom: 20%;
 	left: 40%;
-	background: linear-gradient(to right bottom, #fa0890, #f25e2a);
+	background: linear-gradient(to right bottom, #48C6EF, #6F86D6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -336,7 +336,7 @@ html, body {
 	-o-transform: rotate(-25deg);
 	transform: rotate(-25deg);
 	bottom: 5%;
-	background: linear-gradient(to right top, #f25e2a, #fa0890);
+	background: linear-gradient(to right top, #6F86D6, #48C6EF);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -375,12 +375,30 @@ html, body {
 .action .fly-element-4 {
 	bottom: auto;
 	left: auto;
-	top: 100%;
+	top: 10%;
 	right: -10%;
 }
 
 .action .fly-element-5 {
 	right: -30%;
+}
+.action-title {
+    margin-top: 0;
+}
+
+.action-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.action-icon {
+    text-align: center;
+}
+
+.action-icon img{
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .photo {
@@ -532,7 +550,7 @@ html, body {
 .action {
 	padding: 90px 0;
 	color: white;
-	background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+	background: linear-gradient(to top right, #48C6EF, #6F86D6);
 	outline: none;
 }
 
@@ -611,7 +629,7 @@ html, body {
 
 .fa {
 	margin-right: 20px;
-	color: #fc557c;
+	color: #6F86D6;
 }
 
 .footer-link .call{
@@ -673,7 +691,7 @@ html, body {
 
 #hidden-content {
 	display: none;
-	background: linear-gradient(to right bottom, #fa0890, #f25e2a);
+	background: linear-gradient(to right bottom, #48C6EF, #6F86D6);
 	border-radius: 10px;
 }
 #hidden-content .fancybox-button.fancybox-close-small {
@@ -682,7 +700,7 @@ html, body {
 }
 #hidden-content__2, #hidden-content__3, #hidden-content__4 {
 	display: none;
-	background: linear-gradient(to right bottom, #f25e2a, #fa0890);
+	background: linear-gradient(to right bottom, #6F86D6, #48C6EF);
 	border-radius: 10px;
 }
 #hidden-content__2, #hidden-content__3, #hidden-content__4 .fancybox-button.fancybox-close-small {
@@ -918,7 +936,7 @@ html, body {
 		outline: none;
 	}
 	.slider .slick-dots li.slick-active button {
-		background-color: #ff4e2e;
+		background-color: #005bea;
 	}
 	.action {
 		padding: 70px 0;
@@ -928,6 +946,12 @@ html, body {
 	}
 	.action-subtitle {
 		font-size: 15px;
+	}
+	.action-icons {
+	    justify-content: center;
+	}
+	.action-icon {
+	    margin-bottom: 15px;
 	}
 	.callback {
 		width: auto;
@@ -1047,6 +1071,11 @@ html, body {
 	}
 	.fly-element-3 {
 		bottom: 50%;
+	}
+	.fly-element-4 {
+	    background: linear-gradient(#fff, #fff);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 	.fly-element-5 {
 		top: 35%;
